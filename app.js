@@ -32,7 +32,6 @@ server.post('/api/messages', connector.listen());
 var Enum = require('enum');
 var rootFlow = new Enum(['payment', 'issue', 'StartGreeting'],{ignoreCase:true});
 
-
 /*
 var recognizer = new builder.LuisRecognizer('https://eastus2.api.cognitive.microsoft.com/luis/v2.0/apps/e52f3664-4bf6-4ca4-8c47-70a64301a866?subscription-key=8a9e130238094022b9fd0f71e02df48b&timezoneOffset=0&verbose=true&q=');
 bot.recognizer(recognizer);
